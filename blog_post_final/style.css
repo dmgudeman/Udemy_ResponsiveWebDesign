@@ -44,7 +44,9 @@ h2 {
 
 .container {
     width: 1140px;
-    margin: 20px auto 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0000ff;
 }
 
 .blog-post {
@@ -52,16 +54,19 @@ h2 {
     float: left;
     padding-right: 30px;
     position: relative;
+    background-color: #0000ff;
 }
 
 .other-posts {
     width: 25%;
     float: left;
+    background-color: #00ff00;
 }
 
 .author-box {
     padding-top: 20px;
     border-top: 1px solid #808080;
+    background-color: #ffff00;
 }
 
 .other {

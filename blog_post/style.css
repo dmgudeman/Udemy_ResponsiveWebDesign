@@ -1,12 +1,19 @@
 * {
-    margin: 0;
+    margin:20;
     padding: 0;
     box-sizing: border-box;
 }
-
+container{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0000ff
+    
+}
 body {
     font-family: Helvetica Neue, Arial;
     font-size: 18px;
+    
 }
 
 h1, h2 {
@@ -15,12 +22,11 @@ h1, h2 {
 
 h1 {
     font-size: 40px;
-    margin-bottom: 20px;
+    //margin-bottom: 20px;
 }
 
 h2 {
     font-size: 25px;
-    margin-bottom: 10px;
 }
 
 p {
@@ -29,17 +35,33 @@ p {
 
 .main-text{
     text-align: justify;
-    margin-bottom: 20px;
 }
 
 .author-text {
    font-size: 22px;
 }
+
 img {
-    margin-bottom: 10px;
+}
+.blog-post {
+    
+    background-color: #0000ff;
+    float: left;
+}
+.other-posts {
+    background-color: #00ff00;
+    float: left;
+}
+
+.author-box {
+    
+    background-color: #ffff00;
 }
 
 .authorImage {
-    max-width: 150px;
-    max-height: 150px:
+    max-width: 200px;
+    max-height: 200px:
 }
+
+
+
