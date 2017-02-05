@@ -11,7 +11,7 @@ container{
     
 }
 body {
-    font-family: Helvetica Neue, Arial;
+    font-family:'Lato','Helvetica', 'Arial';
     font-size: 18px;
     
 }
@@ -22,7 +22,7 @@ h1, h2 {
 
 h1 {
     font-size: 40px;
-    //margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 h2 {
