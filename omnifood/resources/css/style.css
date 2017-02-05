@@ -36,7 +36,8 @@ header {
 }
 
 h1 {
-   margin: 0;
+   margin-top: 0;
+   margin-bottom: 20px;
    color: #fff;
    font-size: 240%;
    font-family: 'Lato', 'Helvetica', 'Helvetica Neue', 'Arial', sans-serif;
@@ -46,14 +47,39 @@ h1 {
    word-spacing: 4px;
 }
 
-.my-btn {
+.my-btn:link,
+.my-btn:visited {
    display: inline-block;
    padding: 10px 30px;
    font-weight: 300;
    text-decoration: none;
+   border-radius: 200px;
+   transition: background-color 0.3s, border 0.2s, color 0.2s;
+
 }
 
-.my-btn-full {
+.my-btn-full:link,
+.my-btn-full:visited{
    background-color: #e67e22;
+   border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+}
+.my-btn-ghost {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+.my-btn:hover,
+.my-btn:active {
+   background-color: #cf6d17
 
+}
+.my-btn-full:hover,
+.my-btn-full:active{
+   border: 1px solid #e67e17;
+}
+.my-btn-ghost:hover,
+.my-btn-ghost:active {
+    border: 1px solid #e67e17;
+    color: #fff;
 }
