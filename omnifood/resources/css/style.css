@@ -19,6 +19,16 @@ html {
    font-size: 20px;
    text-rendering: optimizeLegibility;
 }
+
+.clearfix {zoom:1}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0px;
+    visibility: hidden;
+}
 /* ---------------REUSABLE COMPONENTS -----------------------*/
 
 .row {
@@ -187,6 +197,12 @@ header {
    border-bottom: 2px solid #e67e22;
 }
 
+/**************** FEATURES *****************/
+
+.section-features .long-copy {
+    margin-bottom:30px; 
+}
+
 /**************** MEALS ********************/
 .section-meals {
     padding: 0;
@@ -220,4 +236,58 @@ header {
 .meal-photo img:hover {
     opacity: 1;
     transform: scale(1.03);
+}
+
+/* ----------------------------------------------- */
+/* HOW IT WORKS */
+/* ----------------------------------------------- */
+
+/*.steps-box {
+}*/
+
+.works-step:first-child {
+    text-align: left;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.works-step:last-child {
+    padding-left: 3%;
+    margin-top: 100px;
+    
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step div {
+    color:#e67e22;
+    border: 2px solid #e67e22;
+    /*display: inline-block;*/
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 8px;
+    padding-top: 10px;
+    float: left;
+    font-size: 175%;
+    margin-right:50px;
+
+
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px; 
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
 }
